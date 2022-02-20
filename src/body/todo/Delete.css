@@ -1,0 +1,13 @@
+.delete {
+	color: var(--color-tertiary);
+	opacity: 0.8;
+	width: 24px;
+	height: 24px;
+}
+
+.delete:hover {
+	color: var(--color-tertiary);
+	opacity: 1;
+	cursor: pointer;
+	transform: scale(1.25);
+}

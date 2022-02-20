@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	/* --color-primary: #139487;
+	--color-secondary: #86c6f4;
+	--color-tertiary: #fff1ce; */
+	--color-primary: #fffdfc;
+	--color-secondary: #fff;
+	--color-tertiary: #845ec2;
+}
+.app {
+	background-color: var(--color-primary);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+/* Works on Firefox */
+/* * {
+	scrollbar-width: thin;
+	scrollbar-color: blue;
+} */
+
+/* Works on Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-tertiary);
+	border: 1.5px solid var(--color-primary);
+}
